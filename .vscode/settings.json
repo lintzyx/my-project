@@ -1,7 +1,6 @@
-{"terminal.integrated.shellArgs.windows": [
-  "-Command",
-  "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; Set-Culture -CultureInfo zh-TW"
-
-]
-
-}
+{
+    "terminal.integrated.env.windows": {
+      "LANG": "zh_TW.UTF-8"
+    },
+    "terminal.integrated.fontFamily": "monospace"
+  }
